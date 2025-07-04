@@ -9,7 +9,7 @@
  */
 public class Parteis {
     public String Nombre; 
-    public int cedula; 
+    public String cedula; 
     public int numeroTel; 
 
     public String getNombre() {
@@ -17,7 +17,7 @@ public class Parteis {
     }
 
     public int getCedula() {
-        return cedula;
+        return cedula.hashCode();
     }
 
     public int getNumeroTel() {
@@ -32,7 +32,7 @@ public class Parteis {
         this.numeroTel = numeroTel;
     }
 
-    public Parteis(String Nombre, int cedula, int numeroTel) {
+    public Parteis(String Nombre, String cedula, int numeroTel) {
         this.Nombre = Nombre;
         this.cedula = cedula;
         this.numeroTel = numeroTel;

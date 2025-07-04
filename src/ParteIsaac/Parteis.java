@@ -32,7 +32,7 @@ public class Parteis {
         this.numeroTel = numeroTel;
     }
 
-    public ParteIsaac(String Nombre, int cedula, int numeroTel) {
+    public Parteis(String Nombre, int cedula, int numeroTel) {
         this.Nombre = Nombre;
         this.cedula = cedula;
         this.numeroTel = numeroTel;
